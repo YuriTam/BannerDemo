@@ -3,8 +3,10 @@ Android自定义广告轮播图
 
 #### 自定义的RelativeLayout，配合Glide 实现本地以及网络图片的加载
 
+
 #### 效果：
 
+![](https://raw.githubusercontent.com/TwoSX/BannerDemo/master/ScreenGif.gif)
 
 #### 使用方法：
 
