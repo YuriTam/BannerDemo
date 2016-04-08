@@ -1,7 +1,7 @@
 # BannerDemo
 Android自定义广告轮播图
 
-#### 自定义的RelativeLayout，配合Glide 实现本地以及网络图片的加载
+#### 自定义的BannerLayout，通过ViewPager来实现，配合Glide 实现本地以及网络图片的加载。
 
 
 #### 效果：
