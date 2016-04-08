@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BannerLayout bannerLayout1 = (BannerLayout) findViewById(R.id.banner1);
-        BannerLayout bannerLayout2 = (BannerLayout) findViewById(R.id.banner2);
-
         List<Integer> res = new ArrayList<>();
         res.add(R.drawable.lunbo1);
         res.add(R.drawable.lunbo2);
@@ -25,10 +23,11 @@ public class MainActivity extends AppCompatActivity {
         titles.add("标题一");
         titles.add("标题二");
         titles.add("标题三");
-
         if (bannerLayout1 != null) {
             bannerLayout1.setViewRes(res, titles);
         }
+
+        BannerLayout bannerLayout2 = (BannerLayout) findViewById(R.id.banner2);
 
         List<String> urls = new ArrayList<>();
         urls.add("http://www.ctsay.com/img/16/0321/56ef5ac94368c.jpeg");
